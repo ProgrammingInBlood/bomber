@@ -3,8 +3,8 @@ MODDED CALL/SMS BOMBER
 
 Features:
 =========
-*Call bombing modded upto 2000 times.
-*SMS bombing modded upto 2000 times.
+- *Call bombing modded upto 2000 times.
+- *SMS bombing modded upto 2000 times.
 
 
 FOR TERMUX:
