@@ -844,7 +844,7 @@ if type == 1:
         print("\t\tYou Have Entered " + str(nm) +
               ".\n\tNormalizing Value To 15")
         nm = 15
-            dl = float(input("Enter Delay time (in seconds) [Recommended 10 sec ] : "))
+        dl = float(input("Enter Delay time (in seconds) [Recommended 10 sec ] : "))
 elif type == 0:
     if cc == "91":
         nm = int(input("Enter Number of Messages To Send(0 For Unlimited): "))
