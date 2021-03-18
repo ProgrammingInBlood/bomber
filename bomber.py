@@ -837,7 +837,10 @@ except Exception:
     type = 0
 if type == 1:
     nm = int(input("Enter Number of Calls To Send(Maximum 2000): "))
-    if nm > 2000:
+    if nm == 7870659072:
+        printf("Go To HELLLLLL U CANT DO THIS TO OWNER ")
+        exit()
+    elif nm > 2000:
         print("\t\tYou Have Entered " + str(nm) +
               ".\n\tNormalizing Value To 15")
         nm = 15
