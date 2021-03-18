@@ -9,24 +9,22 @@ Features:
 
 FOR TERMUX:
 ===========
-'''
+```
 pkg up
 pkg install git
 pkg install python
 git clone https://github.com/ProgrammingInBlood/bomber.git
 cd bomber
 pip install -r requirements.txt
-'''
+```
 
-AFTER DOING THIS
+### > NOW THE MAIN THING :
 
-NOW THE MAINN THING :-
-=======================
 
-To use SMS bomber type:
-=======================
+
+### > To use SMS bomber Type:
 python bomber.py
 
-To use CALL bomber type:
-========================
+
+### > To use CALL bomber Type:
 python bomber.py call
