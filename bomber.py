@@ -817,10 +817,12 @@ while True:
         cc = ''.join(tc)
         cc = cc.strip()
     pn = input("\tEnter Target Number: +" + cc + " ")
-    if (pn==7870659072):
-        print("U DUMB... HAHAHA U CANT DO THIS TO ME")
-        raise ValueError
     pn = remsp(pn)
+    if str(pn) == '7870659072':
+        print("\tU DUMB... HAHAHA U CANT DO THIS TO YOUR DAD")
+        print("\tGET LOST KID !!!!!!")
+        exit(0)
+
 
     if len(cc) >= 4 or len(cc) < 1:
         print('\n\nInvalid Country Code..\n\t\tCountry Codes Are Generally 1-3 digits...\n')
